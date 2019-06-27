@@ -32,17 +32,33 @@ ul {
   h1 {
       margin-top: 30pt;
       font-size: 13pt;
-      color: white;
+      color: #333;
       
   }
 
   .About {
-      background-color: #a6a6a6;
+      background-color: white;
       width: 80%;
       padding: 5pt;
+      opacity: 0.9;
   }
 
   p {
       text-align: left;
       padding: 5%;
+      color: #333;
   }
+
+  hr {
+      width: 50%;
+      border: 1px solid  #333;
+  }
+
+  body {
+    background: url(achtergrond.jpg);
+  }
+
+  .poster {
+    width: 80%;
+    margin-top: 15px;
+}
